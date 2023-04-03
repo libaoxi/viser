@@ -252,6 +252,7 @@ export const process = (chart: any, config: IMainConfig, isUpdate: boolean = fal
   arrSeries = setQuickType.process(arrSeries, config.coord);
 
   // add `zIndex` to comfirm overlay index
+  // @ts-ignore
   arrSeries = _.sortBy(arrSeries, 'zIndex');
   let chartInstance;
   arrSeries.forEach((currSeries: any) => {
@@ -260,6 +261,7 @@ export const process = (chart: any, config: IMainConfig, isUpdate: boolean = fal
     }
     for (const item in currSeries) {
       if (currSeries.hasOwnProperty(item)) {
+        // @ts-ignore
         EventUtils.setSEvent(chart, 'label', name, currSeries[item]);
       }
     }

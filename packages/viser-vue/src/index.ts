@@ -1,5 +1,5 @@
 import * as viser from 'viser';
-import Vue, { ComponentOptions } from 'vue';
+import { h, ComponentOptions } from 'vue';
 import typedProps from './typed';
 
 const regSeries = [
@@ -80,7 +80,7 @@ const baseChartComponent = {
   // Why use null? See https://github.com/vuejs/vue/issues/4792.
   props: typedProps,
   methods: {
-    checkIsContainer(componentInstance: Vue) {
+    checkIsContainer(componentInstance: any) {
       if (
         (componentInstance as any).isViser &&
         rootCharts
@@ -96,7 +96,7 @@ const baseChartComponent = {
     /**
      * find nearest parent rechart component
      */
-    findNearestRootComponent(componentInstance: Vue) {
+    findNearestRootComponent(componentInstance: any) {
       if (this.checkIsContainer(componentInstance)) {
         if (
           (componentInstance.$options as any)._componentTag === 'v-lite-chart'
@@ -272,14 +272,14 @@ const baseChartComponent = {
     // bubble from child to parent
     (this as any).freshChart(true);
   },
-  render(createElement: any): any {
+  render(): any {
     const isContainer = (this as any).checkIsContainer(this);
     if (isContainer) {
-      return createElement('div', null, (this as any).$slots.default);
+      return h('div', null, (this as any).$slots.default);
     }
     const props = cleanUndefined(normalizeProps((this as any)._props));
 
-    return createElement(
+    return h(
       'div',
       { style: { display: 'none' } },
       Object.keys(props).map(key => {
@@ -337,12 +337,12 @@ const installMaps: any = {
 };
 
 export default {
-  install: (Vue: any, options: string[] | undefined) => {
+  install: (vue: any, options: string[] | undefined) => {
     if (!options) {
       options = Object.keys(installMaps);
     }
     options.forEach((key: string) => {
-      Vue.component(key, {
+      vue.component(key, {
         ...installMaps[key],
         name: key,
       });
@@ -457,19 +457,3 @@ function generateRandomNum() {
 export const registerAnimation = viser.registerAnimation;
 export const registerShape = viser.registerShape;
 export const Global = viser.Global;
-
-declare module 'vue/types/vue' {
-  interface Vue {
-    chart: any;
-    _props?: object;
-    _uid?: string;
-    jsonForD2: any;
-    plugins: any;
-  }
-}
-
-declare module 'vue/types/options' {
-  interface ComponentOptions<V extends Vue> {
-    _componentTag?: any;
-  }
-}
