@@ -1,5 +1,5 @@
 {
-  "name": "viser-demo",
+  "name": "@baoxi/viser-demo",
   "version": "0.1.0",
   "description": "viser demo",
   "scripts": {
@@ -35,7 +35,7 @@
     "ts-loader": "^6.2.0",
     "tslint": "^5.20.0",
     "tsutils": "^3.17.1",
-    "typescript": "<5.0.3",
+    "typescript": "~4.9.5",
     "vue-loader": "^15.7.1",
     "vue-template-compiler": "^2.6.10",
     "webpack": "^4.41.2",

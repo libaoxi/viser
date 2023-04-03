@@ -5,9 +5,9 @@
   ],
   "description": "viser is a toolkit fit for data vis engineer.",
   "bugs": {
-    "url": "https://github.com/viserjs/viser/issues"
+    "url": "https://github.com/libaoxi/viser/issues"
   },
-  "homepage": "https://github.com/viserjs/viser#readme",
+  "homepage": "https://github.com/libaoxi/viser#readme",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "publish": "./scripts/publish.sh"
@@ -28,11 +28,11 @@
     ]
   },
   "engines": {
-    "node": ">=8"
+    "node": ">=14"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:viserjs/viser.git"
+    "url": "git@github.com:libaoxi/viser.git"
   },
   "author": "DT-FE",
   "license": "MIT"

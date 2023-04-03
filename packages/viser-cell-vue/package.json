@@ -1,8 +1,8 @@
 {
-  "name": "viser-cell-vue",
+  "name": "@baoxi/viser-cell-vue",
   "version": "2.0.3",
   "description": "viser-cell-vue is vue of viser-cell.",
-  "repository": "viserjs/viser-cell-vue",
+  "repository": "libaoxi/viser-cell-vue",
   "license": "MIT",
   "authors": "DT-FE",
   "files": [
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/node": "*",
-    "viser-cell": "^2.0.0",
+    "@baoxi/viser-cell": "^2.0.0",
     "vue": "^3.2.0"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "rimraf": "^2.6.2",
     "ts-loader": "^3.1.1",
     "tslint": "^5.5.0",
-    "typescript": "~5.0.3",
+    "typescript": "~4.9.5",
     "webpack": "^4.20.0",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.1.0"

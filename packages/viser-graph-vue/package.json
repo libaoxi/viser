@@ -1,8 +1,8 @@
 {
-  "name": "viser-graph-vue",
+  "name": "@baoxi/viser-graph-vue",
   "version": "1.0.1",
   "description": "viser-graph-vue is vue of viser-graph.",
-  "repository": "viserjs/viser-graph-vue",
+  "repository": "libaoxi/viser-graph-vue",
   "license": "MIT",
   "authors": "DT-FE",
   "files": [
@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "@types/node": "*",
-    "viser-graph": "*",
+    "@baoxi/viser-graph": "*",
     "vue": "^2.5.3"
   },
   "devDependencies": {
@@ -51,7 +51,7 @@
     "rimraf": "^2.6.2",
     "ts-loader": "^3.1.1",
     "tslint": "^5.5.0",
-    "typescript": "~5.0.3",
+    "typescript": "~4.9.5",
     "webpack": "^4.20.0",
     "webpack-bundle-analyzer": "^3.6.0",
     "webpack-cli": "^3.1.0"
