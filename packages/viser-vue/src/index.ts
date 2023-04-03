@@ -1,4 +1,4 @@
-import * as viser from 'viser';
+import * as viser from '@baoxi/viser';
 import { h, ComponentOptions } from 'vue';
 import typedProps from './typed';
 

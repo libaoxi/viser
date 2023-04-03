@@ -14,7 +14,8 @@
       "es6",
       "scripthost",
       "dom"
-    ]
+    ],
+    "skipLibCheck": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

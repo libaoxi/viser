@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import viser from 'viser';
+import viser from '@baoxi/viser';
 import IRChart from '../typed/IRChart';
 
 function firstLowerCase(str: string) {

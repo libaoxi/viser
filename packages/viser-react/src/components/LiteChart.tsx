@@ -1,6 +1,6 @@
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
-import viser from 'viser';
+import viser from '@baoxi/viser';
 import IRLiteChart from '../typed/IRLiteChart';
 
 function retain(obj: any, attr: any) {

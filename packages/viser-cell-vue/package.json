@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-cell-vue",
-  "version": "2.1.0",
+  "version": "2.1.1",
   "description": "viser-cell-vue is vue of viser-cell.",
   "repository": "libaoxi/viser-cell-vue",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "vue": ">=3"
   },
   "dependencies": {
-    "@baoxi/viser-cell": "^2.1.0",
+    "@baoxi/viser-cell": "^2.1.1",
     "@types/node": "*",
     "vue": "^3.2.0"
   },

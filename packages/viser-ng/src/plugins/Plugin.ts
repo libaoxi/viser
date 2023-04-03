@@ -1,5 +1,5 @@
 import { AfterViewInit, Component, OnChanges, SimpleChanges, ViewContainerRef } from '@angular/core';
-import * as viser from 'viser';
+import * as viser from '@baoxi/viser';
 import { PluginContext } from './PluginService';
 
 @Component({

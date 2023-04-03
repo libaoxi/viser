@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-graph-react",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "viser-graph-react is react of viser-graph.",
   "repository": "libaoxi/viser-graph-react",
   "license": "MIT",
@@ -28,7 +28,7 @@
     "react-dom": ">15"
   },
   "dependencies": {
-    "@baoxi/viser-graph": "^1.1.0",
+    "@baoxi/viser-graph": "^1.1.1",
     "@types/node": "*",
     "@types/prop-types": "*",
     "prop-types": "^15.6.0"

@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-ng",
-  "version": "2.6.0",
+  "version": "2.6.1",
   "description": "viser-ng is angular of viser.",
   "repository": "libaoxi/viser-ng",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "zone.js": "^0.10.2"
   },
   "dependencies": {
-    "@baoxi/viser": "^2.5.0",
+    "@baoxi/viser": "^2.5.1",
     "@types/core-js": "*",
     "@types/node": "*",
     "rxjs": "^6.5.3"

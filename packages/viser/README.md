@@ -11,7 +11,7 @@ $ npm install --save viser
 ## Usage
 
 ```jsx
-import viser from 'viser';
+import viser from '@baoxi/viser';
 const DataSet = require('@antv/data-set');
 
 const sourceData = [

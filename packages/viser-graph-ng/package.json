@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-graph-ng",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "viser-graph-ng is angular of viser-graph.",
   "repository": "libaoxi/viser-graph-ng",
   "license": "MIT",
@@ -30,7 +30,7 @@
     "zone.js": "^0.10.2"
   },
   "dependencies": {
-    "@baoxi/viser-graph": "^1.1.0",
+    "@baoxi/viser-graph": "^1.1.1",
     "@types/core-js": "*",
     "@types/node": "*",
     "rxjs": "^6.5.3"

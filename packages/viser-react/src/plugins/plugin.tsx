@@ -1,6 +1,6 @@
 import * as PropTypes from 'prop-types';
 import * as React from 'react';
-import * as viser from 'viser';
+import * as viser from '@baoxi/viser';
 
 export default class PluginComponent extends React.Component<any, any> {
   public static childContextTypes = {

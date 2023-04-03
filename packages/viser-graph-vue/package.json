@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-graph-vue",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "viser-graph-vue is vue of viser-graph.",
   "repository": "libaoxi/viser-graph-vue",
   "license": "MIT",
@@ -27,7 +27,7 @@
     "vue": ">=1"
   },
   "dependencies": {
-    "@baoxi/viser-graph": "^1.1.0",
+    "@baoxi/viser-graph": "^1.1.1",
     "@types/node": "*",
     "vue": "^2.5.3"
   },

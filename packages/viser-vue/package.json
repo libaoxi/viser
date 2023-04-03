@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-vue",
-  "version": "2.5.0",
+  "version": "2.5.1",
   "description": "viser-vue is vue of viser.",
   "repository": "libaoxi/viser-vue",
   "license": "MIT",
@@ -20,14 +20,14 @@
     "build:cjs": "rimraf lib && cross-env NODE_ENV=commonjs BABEL_ENV=cjs babel ./es -d lib",
     "build:umd": "rimraf umd && cross-env BABEL_ENV=umd webpack --config webpack.config.js",
     "clean": "git clean -fdX .",
-    "lint": "tslint ./src",
+    "lint": "tslint src",
     "analyse": "cross-env NODE_ENV=analyse webpack --progress --config webpack.config.js"
   },
   "peerDependencies": {
     "vue": ">=3"
   },
   "dependencies": {
-    "@baoxi/viser": "^2.5.0",
+    "@baoxi/viser": "^2.5.1",
     "@types/node": "*",
     "vue": "^3.2.0"
   },

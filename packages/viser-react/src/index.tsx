@@ -1,4 +1,4 @@
-import * as viser from 'viser';
+import * as viser from '@baoxi/viser';
 import { Area, Axis, Bar, Box, Brush, Candle, Contour, Coord,
  DashLine, DodgeBar, DodgeInterval, Edge, Funnel, Guide, Heatmap,
  Interval, JitterPoint, Legend, Line, Path, Pie,
