@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser",
-  "version": "2.4.9",
+  "version": "2.5.0",
   "description": "viser is a toolkit fit for data vis engineer.",
   "repository": "libaoxi/viser",
   "license": "MIT",
@@ -36,11 +36,11 @@
   "devDependencies": {
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/plugin-proposal-export-default-from": "^7.0.0",
     "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/runtime": "^7.0.0",

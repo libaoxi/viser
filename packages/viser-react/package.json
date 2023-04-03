@@ -1,6 +1,6 @@
 {
   "name": "@baoxi/viser-react",
-  "version": "2.4.8",
+  "version": "2.5.0",
   "description": "viser-react is react of viser.",
   "repository": "libaoxi/viser-react",
   "license": "MIT",
@@ -28,26 +28,26 @@
     "react-dom": ">15"
   },
   "dependencies": {
+    "@baoxi/viser": "^2.5.0",
     "@types/node": "*",
     "@types/prop-types": "*",
     "babel-loader": "^8.0.6",
-    "prop-types": "^15.6.0",
-    "@baoxi/viser": "^2.0.0"
+    "prop-types": "^15.6.0"
   },
   "devDependencies": {
-    "@types/react": "*",
-    "@types/react-dom": "*",
     "@babel/cli": "^7.1.0",
     "@babel/core": "^7.0.0",
+    "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/plugin-proposal-class-properties": "^7.0.0",
     "@babel/plugin-proposal-export-default-from": "^7.0.0",
     "@babel/plugin-proposal-export-namespace-from": "^7.0.0",
     "@babel/plugin-proposal-object-rest-spread": "^7.0.0",
-    "@babel/plugin-external-helpers": "^7.0.0",
     "@babel/polyfill": "^7.0.0",
     "@babel/preset-env": "^7.0.0",
     "@babel/preset-react": "^7.0.0",
     "@babel/runtime": "^7.0.0",
+    "@types/react": "*",
+    "@types/react-dom": "*",
     "colors": "^1.1.2",
     "cross-env": "^5.2.0",
     "gzip-size": "^4.0.0",
